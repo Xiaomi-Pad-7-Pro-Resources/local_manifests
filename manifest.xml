@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@github.com/Xiaomi-Pad-7-Pro-Resources"
           name="micliff-dev"
-          revision="lineage-22.2" />
+          revision="lineage-23.0" />
 
   <!-- Sync required hals -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="micliff-dev" />

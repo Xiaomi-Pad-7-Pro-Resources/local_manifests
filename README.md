@@ -8,7 +8,7 @@ This repository contains local manifest files for Android ROM building, organize
 device-codename/romname-version
 ```
 
-**Example:** `muyu/lineage-23.0`
+**Example:** `muyu/lineage-24.0`
 
 ## Usage
 
@@ -21,10 +21,10 @@ cd /path/to/rom/source
 ### 2. Clone Local Manifest
 
 ```bash
-git clone https://github.com/Xiaomi-Pad-7-Pro-Resources/local_manifests.git -b muyu/lineage-23.0 .repo/local_manifests
+git clone https://github.com/Xiaomi-Pad-7-Pro-Resources/local_manifests.git -b muyu/lineage-24.0 .repo/local_manifests
 ```
 
-Replace `muyu/lineage-23.0` with your desired device-codename/romname-version branch.
+Replace `muyu/lineage-24.0` with your desired device-codename/romname-version branch.
 
 ### 3. Sync Repositories
 
@@ -36,8 +36,8 @@ repo sync -j$(nproc --all)
 
 - `device-codename/romname-version`
 - Examples:
-  - `muyu/lineage-23.0`
-  - `uke/lineage-23.0`
+  - `muyu/lineage-24.0`
+  - `uke/lineage-24.0`
 
 Each branch contains the specific manifest for that device and ROM combination.
 
